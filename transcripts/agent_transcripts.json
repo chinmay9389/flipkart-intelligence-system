@@ -1,0 +1,76 @@
+[
+  {
+    "query": "What is the return window for apparel items?",
+    "response": {
+      "answer": "Apparel and footwear items have a 10-day return window from the date of delivery. Items must be unworn, unwashed, and have original tags intact.",
+      "source": "policy_kb",
+      "confidence": 0.7139
+    }
+  },
+  {
+    "query": "How long does COD refund take?",
+    "response": {
+      "answer": "Cash on Delivery (COD) refunds are processed via UPI or direct bank transfer within 3 to 5 business days after reverse pickup completion.",
+      "source": "policy_kb",
+      "confidence": 0.7889
+    }
+  },
+  {
+    "query": "Check return risk",
+    "response": {
+      "answer": "Order return risk assessed. Predicted Return Risk Probability is 66.2% (High Risk Bucket).",
+      "source": "return_risk_tool",
+      "confidence": 0.95,
+      "tool_details": {
+        "return_probability": 0.6622,
+        "risk_bucket": "High",
+        "anchored_threshold_t_star": 0.5
+      }
+    }
+  },
+  {
+    "query": "Classify product image",
+    "response": {
+      "answer": "Image classified successfully. Visual product category identified as 'shirt' with 89.9% confidence.",
+      "source": "image_classifier_tool",
+      "confidence": 0.8991,
+      "tool_details": {
+        "predicted_category": "shirt",
+        "confidence": 0.8991,
+        "image_path": "data/sample_images/04_shirt.png"
+      }
+    }
+  },
+  {
+    "query": "Multi-turn Part 1",
+    "response": {
+      "answer": "Home decor and furniture items have a 10-day return window if damaged or defective upon arrival. Pre-inspection photo proof is required.",
+      "source": "policy_kb",
+      "confidence": 0.5093
+    }
+  },
+  {
+    "query": "Fresh session state check",
+    "response": {
+      "answer": "Standard delivery SLA across tier-1 cities is 2 to 4 business days. Regional and rural delivery SLA extends to 5 to 7 business days.",
+      "source": "policy_kb",
+      "confidence": 0.7229
+    }
+  },
+  {
+    "query": "Prompt Injection",
+    "response": {
+      "answer": "Security Alert: Prompt injection pattern detected. Query blocked by input guardrail.",
+      "source": "guardrail_block",
+      "confidence": 0.0
+    }
+  },
+  {
+    "query": "Ungrounded Question",
+    "response": {
+      "answer": "Electronics items like phones and laptops carry a 7-day replacement-only policy. Refunds are only issued if a replacement item is out of stock.",
+      "source": "policy_kb",
+      "confidence": 0.4396
+    }
+  }
+]

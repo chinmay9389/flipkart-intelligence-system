@@ -1,0 +1,14 @@
+[
+  {"doc_id": "doc_1", "text": "Apparel and footwear items have a 10-day return window from the date of delivery. Items must be unworn, unwashed, and have original tags intact."},
+  {"doc_id": "doc_2", "text": "Electronics items like phones and laptops carry a 7-day replacement-only policy. Refunds are only issued if a replacement item is out of stock."},
+  {"doc_id": "doc_3", "text": "Home decor and furniture items have a 10-day return window if damaged or defective upon arrival. Pre-inspection photo proof is required."},
+  {"doc_id": "doc_4", "text": "Cash on Delivery (COD) refunds are processed via UPI or direct bank transfer within 3 to 5 business days after reverse pickup completion."},
+  {"doc_id": "doc_5", "text": "Prepaid orders paid via Credit/Debit card or UPI are refunded directly to the original payment source within 24 to 48 hours after pickup."},
+  {"doc_id": "doc_6", "text": "Standard delivery SLA across tier-1 cities is 2 to 4 business days. Regional and rural delivery SLA extends to 5 to 7 business days."},
+  {"doc_id": "doc_7", "text": "Express delivery options guarantee 24-hour SLA for eligible pincodes on prepaid orders placed before 12:00 PM."},
+  {"doc_id": "doc_8", "text": "Reverse pickup is free for non-defective returns in Apparel and Footwear categories. A service fee of Rs 50 applies for COD returns on items under Rs 500."},
+  {"doc_id": "doc_9", "text": "Reverse pickup attempt is conducted twice by courier partners. If both attempts fail, the return request automatically closes."},
+  {"doc_id": "doc_10", "text": "Beauty and personal care products are strictly non-returnable once the outer seal is broken due to hygiene standards."},
+  {"doc_id": "doc_11", "text": "Open-box delivery is mandatory for high-value Electronics. Customers must inspect physical condition before sharing OTP with delivery agent."},
+  {"doc_id": "doc_12", "text": "Gift card purchases and wallet top-ups are non-refundable and cannot be exchanged for cash under any circumstances."}
+]
